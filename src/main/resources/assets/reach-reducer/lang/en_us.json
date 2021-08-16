@@ -1,0 +1,22 @@
+{
+  "reach-reducer.modname": "Reach Reducer",
+  "reach-reducer.config.general": "General",
+
+  "reach-reducer.config.block_reach": "Survival Mode Block Reach",
+  "reach-reducer.config.block_reach.description.line1": "The distance from which you can mine and place blocks.",
+  "reach-reducer.config.block_reach.description.line2": "Cannot be set to over the vanilla default of 4.5 blocks.",
+  "reach-reducer.config.block_reach.description.line3": "This setting applies to reach in every gamemode except creative",
+
+  "reach-reducer.config.attack_reach": "Survival Mode Attack Reach",
+  "reach-reducer.config.attack_reach.description.line1": "The distance from which you can attack entities.",
+  "reach-reducer.config.attack_reach.description.line2": "Cannot be set over the vanilla default of 3.0 blocks.",
+  "reach-reducer.config.attack_reach.description.line3": "This setting applies to reach in every gamemode except creative",
+
+  "reach-reducer.config.creative_attack_reach": "Creative Mode Attack Reach",
+  "reach-reducer.config.creative_attack_reach.description.line1": "The distance from which you can mine and place blocks in creative mode.",
+  "reach-reducer.config.creative_attack_reach.description.line2": "Cannot be set over the vanilla default of 6.0 blocks.",
+
+  "reach-reducer.config.creative_block_reach": "Creative Mode Block Reach",
+  "reach-reducer.config.creative_block_reach.description.line1": "The distance from which you can attack entities in creative mode.",
+  "reach-reducer.config.creative_block_reach.description.line2": "Cannot be set over the vanilla default of 5.0 blocks."
+}

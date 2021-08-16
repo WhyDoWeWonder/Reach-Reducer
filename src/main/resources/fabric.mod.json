@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "reach-reducer",
+  "version": "${version}",
+  "name": "Reach Reducer",
+  "description": "Handicap yourself to make fights harder by decreasing your reach distance.",
+  "authors": [
+    "LordofLightning"
+  ],
+  "contact": {},
+  "license": "GPL-3.0-only",
+  "icon": "assets/reach-reducer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lordoflightning.reachreducer.ReachReducerMain"
+    ],
+    "modmenu": [
+      "com.lordoflightning.reachreducer.config.ConfigScreenProvider"
+    ]
+  },
+  "mixins": [
+    {
+      "config":  "reach-reducer.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": ">=1.16.2"
+  }
+}
