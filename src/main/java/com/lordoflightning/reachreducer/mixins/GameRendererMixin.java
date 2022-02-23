@@ -37,7 +37,7 @@ public abstract class GameRendererMixin {
     private double getActualAttackRange1(final double attackRange) {
         if (this.client.player != null) {
             float reach;
-            if (this.client.player.abilities.creativeMode) {
+            if (this.client.player.getAbilities().creativeMode) {
                 reach = ModConfig.INSTANCE.getCreativeAttackReachDistance();
             } else {
                 reach = ModConfig.INSTANCE.getAttackReachDistance();
